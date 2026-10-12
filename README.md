@@ -1,6 +1,6 @@
 # Deploy and Host Owncast on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/owncast?utm_medium=integration&utm_source=button&utm_campaign=owncast)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/owncast?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=owncast)
 
 [Owncast](https://owncast.online/) is a free and open source live streaming and chat server: point OBS (or any RTMP source) at it and you get your own Twitch-style stream page with built-in chat, viewer stats, and Fediverse integration — fully under your control, with no platform ads or rules.
 
