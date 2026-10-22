@@ -1,0 +1,46 @@
+{
+  "buckets": {},
+  "services": {
+    "a1185e99-9986-4e59-a903-cac133e683d6": {
+      "icon": "https://owncast.online/images/owncast-logo-1000x1000.png",
+      "name": "owncast",
+      "deploy": {
+        "startCommand": null,
+        "healthcheckPath": "/",
+        "restartPolicyType": "ON_FAILURE",
+        "restartPolicyMaxRetries": 10
+      },
+      "source": {
+        "repo": "https://github.com/two-workspaces/owncast",
+        "rootDirectory": null
+      },
+      "variables": {
+        "PORT": {
+          "isOptional": false,
+          "description": "Web server port. Don't change.",
+          "defaultValue": "8080"
+        },
+        "STREAM_KEY": {
+          "isOptional": false,
+          "description": "Stream key for OBS/RTMP ingest. Auto generated.",
+          "defaultValue": "${{secret(16)}}"
+        },
+        "ADMIN_PASSWORD": {
+          "isOptional": false,
+          "description": "Admin panel password (username: admin). Auto generated.",
+          "defaultValue": "${{secret(16)}}"
+        }
+      },
+      "networking": {
+        "serviceDomains": {
+          "<hasDomain>": {}
+        }
+      },
+      "volumeMounts": {
+        "a1185e99-9986-4e59-a903-cac133e683d6": {
+          "mountPath": "/app/data"
+        }
+      }
+    }
+  }
+}

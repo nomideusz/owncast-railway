@@ -6,7 +6,7 @@
 
 ## Screenshots
 
-![Owncast stream page with chat on desktop and mobile](https://raw.githubusercontent.com/nomideusz/owncast-railway/main/images/01.png)
+![Owncast stream page with chat on desktop and mobile](https://raw.githubusercontent.com/two-workspaces/owncast/main/images/01.png)
 
 ## About Hosting Owncast
 
@@ -25,7 +25,7 @@ This template runs Owncast as a single Railway service. The web interface and HL
 ### Deployment Dependencies
 
 - [Owncast documentation](https://owncast.online/docs/)
-- [Template source on GitHub](https://github.com/nomideusz/owncast-railway)
+- [Template source on GitHub](https://github.com/two-workspaces/owncast)
 
 ### Implementation Details
 
