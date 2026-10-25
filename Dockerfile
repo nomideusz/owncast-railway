@@ -1,4 +1,4 @@
-FROM owncast/owncast:latest
+FROM owncast/owncast:0.3.0
 
 COPY railway-entrypoint.sh /railway-entrypoint.sh
 RUN chmod +x /railway-entrypoint.sh
