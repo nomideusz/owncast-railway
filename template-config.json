@@ -11,8 +11,7 @@
     "restartPolicyMaxRetries": 10
    },
    "source": {
-    "repo": "https://github.com/two-workspaces/owncast",
-    "rootDirectory": null
+    "image": "ghcr.io/two-workspaces/owncast:4b024dd"
    },
    "variables": {
     "PORT": {
